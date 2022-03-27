@@ -36,11 +36,3 @@ function MadeProject() {
 }
 
 export default MadeProject;
-
-function MadeProjectTile() {
-  return (
-    <div>
-      <h1></h1>
-    </div>
-  );
-}

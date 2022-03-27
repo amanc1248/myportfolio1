@@ -5,12 +5,7 @@ import About from "./components/about/About";
 import WhyHire from "./components/whyhire/WhyHire";
 import Qualities from "./components/qualities/Qualities";
 import ContactAman from "./components/contactAman/ContactAman";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import MadeProject from "./components/madeProject/MadeProject";
 function App() {
   return (
