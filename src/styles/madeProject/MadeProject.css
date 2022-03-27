@@ -1,0 +1,16 @@
+.madeProjectDiv {
+  color: white;
+  margin: 20px;
+  cursor: pointer;
+}
+.individual__project {
+  padding: 20px 10px;
+}
+.individual__project:hover {
+  border: 2px solid grey;
+  box-shadow: 3px 3px #00ecac;
+  border-radius: 8px;
+}
+.title__margin {
+  margin: 5px 0 10px 0;
+}

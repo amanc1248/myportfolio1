@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+* {
+  font-family: "Righteous", cursive;
+}
+body {
+  background-color: #002626;
+  text-align: center;
+}
+h2 {
+  font-weight: 100;
+}
+
+/* ABOUT ME SECTION */
+.aboutMe__section,
+.why__hired__section {
+  height: 100vh;
+  position: relative;
+}
+.about__me__div {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  left: 10%;
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+.white__text {
+  color: white;
+}
+.link__text {
+  color: #00ecac;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.my__image {
+  background-color: white;
+  border-radius: 50%;
+}
+.working__at__text {
+  font-size: 30px;
+}
+.future__role {
+  font-size: 50px;
+}
+.company__name {
+  font-size: 30px;
+  color: #00ecac;
+}
+.bottom__link__div {
+  position: absolute;
+  bottom: 0.5%;
+  text-align: center;
+  width: 100%;
+}
+
+/* why hired section */
+.why__hired__text__div {
+  height: 20vh;
+
+  position: relative;
+}
+.why__hired__text {
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  left: 10%;
+  /* transform: translate(-50%, -50%); */
+}
+@media only screen and (max-width: 768px) {
+  .why__hired__text {
+    font-size: 25px;
+  }
+  .future__role {
+    font-size: 30px;
+  }
+}
+.hiring__quality {
+  margin-top: 40px;
+  /* align-items: center; */
+}
+
+.quality {
+  background-color: #00ecac;
+  font-size: 25px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .quality {
+    font-size: 25px;
+
+    width: 130px;
+    height: 100px;
+  }
+  .hiring__quality {
+    margin-top: 0px;
+  }
+}
+.quality__div {
+  display: flex;
+}
+.additional__work {
+  height: 20;
+}
+/* the divider */
+.the__divider {
+  height: 10px;
+  background-color: #00ecac;
+  padding: 0;
+  border: none;
+}
+
+.know__text {
+  color: #00ecac;
+  cursor: pointer;
+}
+.made__project__checkout__text {
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+.checkout__text {
+  color: #00ecac;
+  cursor: pointer;
+}
+.checkout__text:hover {
+  text-decoration: underline;
+}
+.contact__him__text {
+  margin-top: 2%;
+  color: white;
+  font-size: 20px;
+}
